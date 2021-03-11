@@ -23,7 +23,7 @@ namespace xadrez
         public void executarMovimento(Posicao origem, Posicao destino)
         {
             Peca p = tab.retirarPeca(origem);
-            p.incrementarQteMovimentos();
+            //p.incrementarQteMovimentos();
             Peca capturada = tab.retirarPeca(destino);
             tab.colocarPeca(p,destino);
         }
